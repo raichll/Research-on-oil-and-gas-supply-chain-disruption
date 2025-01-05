@@ -1,0 +1,10 @@
+digraph {
+	rankdir=LR
+	Weather [color=lightblue shape=ellipse style=filled]
+	Outing [color=lightblue shape=ellipse style=filled]
+	Mood [color=lightblue shape=ellipse style=filled]
+	Transport [color=lightblue shape=ellipse style=filled]
+	Weather -> Outing
+	Weather -> Mood
+	Outing -> Transport
+}
